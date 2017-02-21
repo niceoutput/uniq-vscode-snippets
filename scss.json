@@ -1,0 +1,252 @@
+{
+
+	// Helpers
+	"snippet-clear": {
+		"prefix": "clr",
+		"body": "@include micro-clearfix();",
+		"description": "clearfix"
+	},
+
+	"snippet-backface": {
+		"prefix": "bface",
+		"body": "@include backface-hack();",
+		"description": "backface"
+	},
+
+	"snippet-text truncate": {
+		"prefix": "truncate",
+		"body": "@include text-truncate();",
+		"description": "text truncate"
+	},
+
+	// fonts and typography usage
+	"snippet-fontr": {
+		"prefix": "fontr",
+		"body": "@include font('IntervalNextReg');",
+		"description": "Font Interval Next Reg"
+	},
+
+	"snippet-fontcl": {
+		"prefix": "fontcl",
+		"body": "@include font('IntervalNextCondLi');",
+		"description": "Font Interval Next Cond Li"
+	},
+
+	"snippet-fontli": {
+		"prefix": "fontli",
+		"body": "@include font('IntervalNextLi');",
+		"description": "Font Interval Next  Li"
+	},
+
+	"snippet-fontb": {
+		"prefix": "fontb",
+		"body": "@include font('IntervalNextBold');",
+		"description": "Font Interval Next  Bold"
+	},
+
+	"snippet-fontbook": {
+		"prefix": "fontbook",
+		"body": "@include font('IntervalNextBook');",
+		"description": "Font Interval Next  Book"
+	},
+
+	"snippet-fontbooki": {
+		"prefix": "fontbooki",
+		"body": "@include font('IntervalNextBookit');",
+		"description": "Font Interval Next  Book Italic"
+	},
+
+	"snippet-fontmed": {
+  		"prefix": "fontmed",
+  		"body": "@include font('IntervalNextMed');",
+  		"description": "Font Interval Next  Med"
+	},
+
+	"snippet-fontmedit": {
+		"prefix": "fontmedit",
+		"body": "@include font('IntervalNextMediumit');",
+		"description": "Font Interval Next  Medium Italic"
+	},
+
+	"snippet-fontregit": {
+		"prefix": "fontregit",
+		"body": "@include font('IntervalNextRegularit');",
+		"description": "Font Interval Next  Reg Italic"
+	},
+
+	"snippet-fontsemibold": {
+		"prefix": "fontsemibold",
+		"body": "@include font('IntervalNextSemiBold');",
+		"description": "Font Interval Next  Semi Bold"
+	},
+
+	"snippet-typodisplay": {
+		"prefix": "typodisplay",
+		"body": "@include display();",
+		"description": "Display Typography"
+	},
+
+	"snippet-typohead": {
+		"prefix": "typohead",
+		"body": "@include headline();",
+		"description": "headline Typography"
+	},
+
+	"snippet-typotitle": {
+		"prefix": "typotitle",
+		"body": "@include title();",
+		"description": "headline Title"
+	},
+
+	"snippet-typosub": {
+		"prefix": "typosub",
+		"body": "@include subtitle();",
+		"description": "Subtitle"
+	},
+
+	"snippet-typobody": {
+		"prefix": "typobody",
+		"body": "@include body();",
+		"description": "Body text"
+	},
+
+	"snippet-typocaption": {
+		"prefix": "typocaption",
+		"body": "@include caption();",
+		"description": "Caption text"
+	},
+
+	"snippet-typosmall": {
+		"prefix": "typosmall",
+		"body": "@include small();",
+		"description": "Small text"
+	},
+
+	"snippet-typolink": {
+		"prefix": "typolink",
+		"body": "@include anchor();",
+		"description": "Link text"
+	},
+
+	// Uniq Flex display properties
+	"snippet-flx": {
+		"prefix": "flx",
+		"body": "@include flex();",
+		"description": "Flex"
+	},
+
+	"snippet-inflx": {
+		"prefix": "inflx",
+		"body": "@include inline-flex();",
+		"description": "Inline Flex"
+	},
+
+	"snippet-flxorder": {
+		"prefix": "flxorder",
+		"body": "@include order($1);",
+		"description": "Flex order"
+	},
+
+	"snippet-flxgval": {
+		"prefix": "flxgval",
+		"body": "@include flex-grow($1);",
+		"description": "Flex grow value"
+	},
+
+	"snippet-flxbas": {
+		"prefix": "flxbas",
+		"body": "@include flex-basis($1);",
+		"description": "Flex basis value"
+	},
+
+	"snippet-flxcol": {
+		"prefix": "flxcol",
+		"body": "@include flex-column();",
+		"description": "Flex column"
+	},
+
+	"snippet-flxcolrev": {
+		"prefix": "flxcolrev",
+		"body": "@include flex-column-reverse();",
+		"description": "Flex column reverse"
+	},
+
+	"snippet-flxr": {
+		"prefix": "flxr",
+		"body": "@include flex-row();",
+		"description": "Flex row"
+	},
+
+	"snippet-flxrr": {
+		"prefix": "flxrr",
+		"body": "@include flex-row-reverse();",
+		"description": "Flex row reverse"
+	},
+
+	"snippet-flxcc": {
+		"prefix": "flxcc",
+		"body": "@include justify-content-center();",
+		"description": "Flex justify content center"
+	},
+
+	"snippet-flxsb": {
+		"prefix": "flxsb",
+		"body": "@include space-between();",
+		"description": "Flex justify content center"
+	},
+
+	"snippet-flxjcs": {
+		"prefix": "flxjcs",
+		"body": "@include justify-content-start();",
+		"description": "Flex justify content start"
+	},
+
+	"snippet-flxjce": {
+		"prefix": "flxjce",
+		"body": "@include justify-content-end();",
+		"description": "Flex justify content end"
+	},
+
+	"snippet-flxac": {
+		"prefix": "flxac",
+		"body": "@include align-items-center();",
+		"description": "Flex align items center"
+	},
+
+	"snippet-flxacc": {
+		"prefix": "flxacc",
+		"body": "@include align-content-center();",
+		"description": "Flex align content center"
+	},
+
+	"snippet-flxait": {
+		"prefix": "flxait",
+		"body": "@include align-items-top();",
+		"description": "Flex align items top"
+	},
+
+	"snippet-flxaib": {
+		"prefix": "flxaib",
+		"body": "@include align-items-baseline();",
+		"description": "Flex align items baseline"
+	},
+
+	"snippet-flxaibt": {
+		"prefix": "flxaibt",
+		"body": "@include align-items-bottom();",
+		"description": "Flex align items bottom"
+	},
+
+	"snippet-flxw": {
+		"prefix": "flxw",
+		"body": "@include flex-wrap();",
+		"description": "Flex wrap"
+	},
+
+	// Uniq color function
+	"snippet-colr": {
+		"prefix": "colr",
+		"body": "color: color('$1', '$2');",
+		"description": "Color function Uniq Map"
+	}
+}
